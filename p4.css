@@ -1,13 +1,6 @@
-body, html {
-    background-image: url("oriskany.jpg");
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+html, body {
+    height: 100%;
+    background: linear-gradient(180deg, rgba(131,164,212,1) 0%, rgba(182,251,255,1) 100%);
 }
 
 nav{
@@ -28,11 +21,11 @@ nav li{
     font-size:18px;
 }
 
-.right{
+.right1{
     float:right;
 }
   
-.left{
+.left1{
     float:left;
 }
   
@@ -66,10 +59,10 @@ footer {
     text-align: center;
 }
   
-footer i{
-    size: 150%;
-}
-  
 footer ul{
     list-style: none
+}
+
+.container2{
+    width: 100%;
 }
